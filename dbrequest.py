@@ -4,11 +4,11 @@ from mysql.connector import Error
 def create_connection():
     try:
         connection = mysql.connector.connect(
-            host='mysql-demo-muzain-17d0.d.aivencloud.com',
-            database='defaultdb',
-            user='avnadmin',
-            password='AVNS_TySeJXo2gfZsbFbN5B7',
-            port=25435
+            host='',
+            database='',
+            user='',
+            password='',
+            port=
         )
         if connection.is_connected():
             print("Successfully connected to the database")
